@@ -1,0 +1,66 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments & Environment variables
+.venv
+.env
+.conda/
+env/
+
+# ==========================================
+# AI / ML Engineer Specific Additions
+# ==========================================
+
+# Trained Models & Checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.hdf5
+*.onnx
+*.safetensors
+*.weights
+*.pb
+models/
+checkpoints/
+output/
+outputs/
+
+# Datasets & Data Storage
+data/
+dataset/
+datasets/
+*.csv
+*.parquet
+*.jsonl
+*.tfrecord
+*.arrow
+*.feather
+raw/
+processed/
+
+# Experiment Tracking & Logs
+wandb/
+mlruns/
+runs/
+tensorboard/
+logs/
+*.log
+
+# Jupyter Notebooks & Checkpoints
+.ipynb_checkpoints
+**/.ipynb_checkpoints/*
+
+# Local Vector Databases & Caches
+chroma/
+faiss_index/
+vector_db/
+.cache/
+.huggingface/
+.transformers/
