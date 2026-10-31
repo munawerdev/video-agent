@@ -24,7 +24,6 @@ dependencies = [
     "pydub>=0.25.1",
     "python-dotenv>=1.2.4",
     "reportlab>=5.1.0",
-    "requests>=2.34.2",
     "sentence-transformers>=6.2.0",
     "streamlit>=1.66.1",
     "streamlit-extras>=1.6.0",
