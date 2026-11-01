@@ -5,6 +5,8 @@ build/
 dist/
 wheels/
 *.egg-info
+.downloaders/
+/downloaders/audio/*.wav
 
 # Virtual environments & Environment variables
 .venv
